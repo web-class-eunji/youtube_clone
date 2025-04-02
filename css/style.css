@@ -1,0 +1,99 @@
+header {
+    height: 56px;
+    padding: 0 32px;
+}
+
+header,
+.header_left,
+.header_center,
+.header_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_menu {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    width: 93px;
+    height: 32px;
+}
+
+.left_menu,
+.logo {
+    padding: 8px;
+}
+
+.header_center {
+    width: 600px;
+}
+
+.header_center > input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ddd;
+    outline-color: #065fd4;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 24px 0 0 24px;
+}
+
+.search_icon {
+    width: 64px;
+    height: 40px;
+    padding: 6px;
+    border-radius: 0 24px 24px 0;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-left: none;
+    cursor: pointer;
+}
+
+.voice_icon {
+    width: 47px;
+    height: 40px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.header_right {
+    gap: 8px;
+}
+
+.header_making {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #f1f1f1;
+    border-radius: 24px;
+}
+
+.header_making > button {
+    background: #f1f1f1;
+    border: none;
+}
+
+.header_making > span {
+    margin-bottom: 4px;
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.bell,
+.profile_img {
+    background: none;
+    border: none;
+}
+
+.profile_img img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
