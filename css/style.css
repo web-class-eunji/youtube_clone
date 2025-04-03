@@ -192,4 +192,47 @@ header,
 
 .view_box {
     display: flex;
+    gap: 16px;
+}
+
+.view_icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: none;
+    border: none;
+}
+
+.view_box > div {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    gap: 4px;
+    padding: 0 16px 0 8px;
+    border-radius: 24px;
+}
+
+div.more {
+    padding: 0;
+}
+
+.video_discription {
+    padding: 12px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.video_discription > h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.video_discription > h2 > span {
+    font-weight: 400;
+    color: #464646;
+}
+
+.video_discription > p {
+    margin: 4px 0;
 }
